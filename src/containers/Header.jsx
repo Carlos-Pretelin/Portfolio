@@ -8,6 +8,7 @@ const Header = () => {
       <Link className='Header_item' to={"/"}>Home</Link>
       <Link className='Header_item' to={"/Projects"}>Projects</Link>
       <Link className='Header_item' to={"/Contact"}>Contact</Link>
+      <i class="fa-solid fa-bars"></i>
     </header>
   )
 }

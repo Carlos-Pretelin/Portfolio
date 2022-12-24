@@ -1,0 +1,41 @@
+ .Profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+.Profile img{
+    width: 170px;
+    border-radius: 85px;
+    margin-top: 45px;
+    
+}
+
+.Profile-Details{
+    text-align: center;
+}
+.Profile-Details h1{
+    font-size: 3.2rem;
+    margin: 25px auto;
+}
+.Profile-Details p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.Profile-Details a{
+   width: 208px;
+   padding: 13px 10px;
+   text-decoration: none;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 2.0rem;
+   line-height: 29px;
+   background-color: #FF6464;
+}
