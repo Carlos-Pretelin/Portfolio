@@ -1,15 +1,21 @@
 import React from 'react'
 import Works from './Works'
 import "../styles/FeaturedWorks.scss"
+import useInitialState from '../hooks/useInitialState'
 
 
 const FeaturedWorks = () => {
+
+  const {state} = useInitialState();
+  console.log(state[0])
+  
   return (
     <section className='FeaturedWorks'>
         <p className='FeaturedWorks_title'>Fetured Works</p>
-        <Works/>
-        <Works/>
-        <Works/>
+        
+        {state.map( (project) => (
+          <Works project={project}  key={project.id}/>
+        ))}
        
     </section>
   )
