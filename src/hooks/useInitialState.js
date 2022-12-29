@@ -19,7 +19,7 @@ const useInitialState = () => {
 
     const handleMenu = () => {
         setHamMenu(!hamMenu)
-        console.log(hamMenu)
+        //console.log(hamMenu)
     }
 
 

@@ -1,5 +1,6 @@
 .HamMenu{
-    border: solid 1px black;
+    border: solid 1px #21243D;
+    color: #21243D;
     display: flex;
     flex-direction: column;
     width: 140px;
@@ -17,9 +18,9 @@
     
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
  }
 .HamMenu .Header_item i{
-   margin-right: 15px; 
+   margin-right: auto; 
    
 }

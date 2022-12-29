@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import HamMenu from "../components/HamMenu"
 //styles
 import "../styles/Header.scss"
 import menu from "../assets/Header/menu.svg"
@@ -16,6 +17,7 @@ const Header = () => {
       <Link className='Header_item' to={"/Projects"}>Projects</Link>
       <Link className='Header_item' to={"/Contact"}>Contact</Link> */}
       <img onClick={handleMenu} className='Header_Menu' src={menu} alt="icono menu" />
+      {hamMenu ? <HamMenu/> : null}
     </header>
   )
 }
