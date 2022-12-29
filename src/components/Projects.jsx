@@ -1,8 +1,11 @@
 import React from 'react'
+import HamMenu from './HamMenu'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div>Projects
+      <HamMenu/>
+    </div>
   )
 }
 

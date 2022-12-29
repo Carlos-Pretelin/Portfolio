@@ -14,20 +14,28 @@ const Footer = () => {
           <div className='Footer_SocialMedia'>
 
               <div className='Footer_SocialMedia-item'>
-                <img src={face} alt="" />
+                <a href="https://www.facebook.com/carlos.pretelin.3/">
+                  <img src={face} alt="facebook icon" />
+                </a>
               </div>
 
               <div className='Footer_SocialMedia-item'>
-                <img src={insta} alt="" />
+                <a href="https://www.instagram.com/carlospretelin/">
+                  <img src={insta} alt="instagram icon" />
+                </a>
               </div>
                 
 
               <div className='Footer_SocialMedia-item'>
-                <img src={twitt} alt="" />
+                <a href="https://twitter.com/">
+                  <img src={twitt} alt="twitter icon" />
+                </a>
               </div>
 
               <div className='Footer_SocialMedia-item'>
-                <img src={linkd} alt="" />
+                <a href="https://www.linkedin.com/in/carlos-pretelin/">
+                  <img src={linkd} alt="linkedin icon" />
+                </a>
               </div>
 
         </div>  

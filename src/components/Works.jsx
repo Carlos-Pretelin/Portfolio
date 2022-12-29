@@ -13,7 +13,7 @@ const Works = () => {
             <span>Dashboard</span>
         </div>
         
-        <p className='Works_description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam pariatur molestias molestiae obcaecati quaerat id </p>
+        <p className='Works_description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam pariatur molestias molestiae obcaecati quaerat</p>
         <i className="fa-thin fa-horizontal-rule Works-line-icon" />
     </div>
     
