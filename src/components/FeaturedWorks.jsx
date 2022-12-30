@@ -7,7 +7,7 @@ import useInitialState from '../hooks/useInitialState'
 const FeaturedWorks = () => {
 
   const {state} = useInitialState();
-  console.log(state[0])
+  //console.log(state[0])
   
   return (
     <section className='FeaturedWorks'>

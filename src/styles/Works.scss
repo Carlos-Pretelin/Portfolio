@@ -34,12 +34,18 @@
     padding: 8px;
     color: white;
     display: flex;
-    margin-right: 15px;
+    margin-right: 5px;
     background-color: #21243D;
+}
+
+.Works-labels .Site-link{
+    background-color: #FF6464;
+    margin-left: auto;
 }
 .Works-labels span a{
     color: white;
     text-decoration: none;
+    width: max-content;
 }
 
 .Works_description{

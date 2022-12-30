@@ -3,9 +3,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Layout from '../containers/Layout'
 import Home from "../pages/Home"
-import Projects from "./Projects"
-import Contact from "./Contact"
-import NotFound from "./NotFound"
+import Projects from "../pages/Projects"
+import ProjectsDetails from "../pages/ProjectDetails"
+import Contact from "../pages/Contact"
+import NotFound from "../pages/NotFound"
 
 
 //styles
@@ -18,6 +19,7 @@ const App = () => {
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
                 <Route exact path='/Projects' element={<Projects/>}/>
+                <Route exact path='/Projects_Details' element={<ProjectsDetails/>}/>
                 <Route exact path='/Contact' element={<Contact/>}/>
 
                 <Route exact path='*' element={<NotFound/>} />

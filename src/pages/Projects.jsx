@@ -1,9 +1,14 @@
 import React from 'react'
-import HamMenu from './HamMenu'
+import Works from '../components/Works'
+
+
 
 const Projects = () => {
   return (
-    <div>Projects
+    <div>
+      <h1>Personal Projects</h1>
+
+      
       
     </div>
   )

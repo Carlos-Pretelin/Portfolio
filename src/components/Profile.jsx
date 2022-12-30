@@ -9,7 +9,7 @@ const Profile = () => {
         <img src={ProfilePic} alt="Foto de Carlos Pretelin" />
         <section className='Profile-Details'>
             <h1>Hi, im Carlos, Frontend Developer</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur  quam ametutem sit eos dolor non magnam. Cupiditate doloribus maxime ratione quidem.</p>
+            <p>I'm up-to-date with the newest development tools and methods, and have knowledge of various platforms, languages and embedded systems. </p>
             <a href="#">Download Resume</a>
         </section>
     </div>
