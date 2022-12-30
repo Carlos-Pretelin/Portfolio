@@ -30,9 +30,7 @@ const Works = ({project}) => {
   return (
     <div className='Works'>
          
-         {/* {project.id === 1 ? <img src={Calc} alt="image of the project" /> :null } */}
-         {/* {project.id === 2 ? <img src={ecomerce} alt="image of the project" /> :null } */}
-         {/* {project.id === 3 ? <img src={todo} alt="image of the project" /> :null } */}
+        
          
          {renderImg(project.id)} 
         
@@ -42,15 +40,16 @@ const Works = ({project}) => {
             <span>{project.year}</span>
             <span>React.Js App</span>
             
-            {/* {project.tech.map( (item) => (
-              <span key={item}>{item}</span>
-            ))} */}
+         
 
             <span className='Site-link'><a href={project.url}>Visit my site!</a></span>
         </div>
         
         <p className='Works_description'>{project.description}</p>
-        <Link onClick={ () => handleDetails(project) } to={"/Projects_Details"}>Show Details</Link>
+
+        {/* <Link onClick={ () => handleDetails(project) } to={"/Projects_Details"}>Show Details</Link> */}
+        
+
         <i className="fa-thin fa-horizontal-rule Works-line-icon" />
         
     </div>

@@ -58,6 +58,8 @@ const useGetProjectList = () => {
 
     const handleDetails = (product) =>{
         setProjectDetails(product)
+        console.log("Este Log es desde el hook")
+        console.log(product)
     }
 
   return {projectList, projectDetails, handleDetails}
