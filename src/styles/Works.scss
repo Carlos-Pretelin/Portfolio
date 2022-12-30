@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
 }
-.Works-labels span{
+.Works-labels label{
     font-weight: 700;
     font-size: 1.3rem;
     width: fit-content;
@@ -42,7 +42,7 @@
     background-color: #FF6464;
     margin-left: auto;
 }
-.Works-labels span a{
+.Works-labels label a{
     color: white;
     text-decoration: none;
     width: max-content;

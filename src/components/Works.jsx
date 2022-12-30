@@ -37,12 +37,12 @@ const Works = ({project}) => {
         <p className='Works_title'>{project.name}</p>
         
         <div className='Works-labels'>
-            <span>{project.year}</span>
-            <span>React.Js App</span>
+            <label>{project.year}</label>
+            <label>React.Js App</label>
             
          
 
-            <span className='Site-link'><a href={project.url}>Visit my site!</a></span>
+            <label className='Site-link'><a href={project.url}>Visit my site!</a></label>
         </div>
         
         <p className='Works_description'>{project.description}</p>
