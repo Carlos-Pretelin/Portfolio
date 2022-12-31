@@ -15,26 +15,26 @@ const Footer = () => {
 
               <div className='Footer_SocialMedia-item'>
                 <a href="https://www.facebook.com/carlos.pretelin.3/">
-                  <img src={face} alt="facebook icon" />
+                <i class="fa-brands fa-facebook"></i>
                 </a>
               </div>
 
               <div className='Footer_SocialMedia-item'>
                 <a href="https://www.instagram.com/carlospretelin/">
-                  <img src={insta} alt="instagram icon" />
+                <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>
                 
 
               <div className='Footer_SocialMedia-item'>
                 <a href="https://twitter.com/">
-                  <img src={twitt} alt="twitter icon" />
+                <i class="fa-brands fa-github"></i>
                 </a>
               </div>
 
               <div className='Footer_SocialMedia-item'>
                 <a href="https://www.linkedin.com/in/carlos-pretelin/">
-                  <img src={linkd} alt="linkedin icon" />
+                <i class="fa-brands fa-linkedin"></i>
                 </a>
               </div>
 

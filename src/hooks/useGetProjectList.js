@@ -14,7 +14,8 @@ const ProjectList = [
         description: "Developed a calculator application using React.js with a high level of complexity managing several states using the useReducer Hook, also keeping in mind a very modern and friendly user interface.",
         img: "../assets/Works/ReactCalc.png",
         url:"https://react-calculator-carlos-pretln-123cc7.netlify.app/?fbclid=IwAR0twBMttaFxi2yCMRIvAQMifIYljE437Ao2GaXO_fS87XDpdnAAVXFluQc",
-        github: "https://github.com/Carlos-Pretelin/Rickmorty2",
+        github: "https://github.com/Carlos-Pretelin/Simpl-Calculator-React",
+
     },
 
     {
@@ -36,7 +37,7 @@ const ProjectList = [
         description: "Developed a very intuitive to-do list application using the useReducer Hook managing the states of various DOM elements.",
         img: "../assets/Works/ecomerce.png",
         url:"https://to-do-application-carlospretelin-3635.netlify.app/",
-        github: "https://github.com/Carlos-Pretelin/Rickmorty2",
+        github: "https://github.com/Carlos-Pretelin/Simple-Todo-App",
     },
     {
         name: "Rick and Morty App",
