@@ -44,10 +44,21 @@ const ProjectList = [
         id: 4,
         year: 2022,
         tech: ["HTML/CSS", "Javascript", "React", ],
-        description: "Developed a calculator application using React.js with a high level of complexity managing several states using the useReducer Hook, also keeping in mind a very modern and friendly user interface.",
+        description: "A React app that uses an API and custom hooks and is able to handle a theme change to a dark mode is a web application that allows users to interact with data and functionality provided by a back-end API.",
+        img: "../assets/Works/ReactCalc.png",
+        url:"https://rick-morty-api-2c2a89.netlify.app/",
+        github: "https://github.com/Carlos-Pretelin/Rickmorty2",
+    },
+
+    {
+        name: "Platzi Conf Shop",
+        id: 5,
+        year: 2022,
+        tech: ["HTML/CSS", "Javascript", "React", ],
+        description: "An ecommerce React app that uses an API, custom hooks, and React Router provides a powerful and user-friendly platform for businesses to manage their online sales, while also allowing developers to easily reuse code and manage the different routes and pages within the app.",
         img: "../assets/Works/ReactCalc.png",
         url:"https://react-calculator-carlos-pretln-123cc7.netlify.app/?fbclid=IwAR0twBMttaFxi2yCMRIvAQMifIYljE437Ao2GaXO_fS87XDpdnAAVXFluQc",
-        github: "https://github.com/Carlos-Pretelin/Rickmorty2",
+        github: "https://github.com/Carlos-Pretelin/Platzi-Conf",
     },
 ]
 

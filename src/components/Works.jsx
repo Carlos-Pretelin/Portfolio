@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import Calc from "../assets/Works/calculator.png"
 import ecomerce from "../assets/Works/E-Comerce App.png"
 import todo from "../assets/Works/todoApp.png"
+import rick from "../assets/Works/RickMorty.png"
+import pconf from "../assets/Works/platziconf.png"
 import "../styles/Works.scss"
 import useGetProjectList from '../hooks/useGetProjectList';
 
@@ -12,6 +14,8 @@ const Works = ({project}) => {
 
   const {projectList, projectDetails, handleDetails} = useGetProjectList();
 
+
+  //To do : Move this to a custom hook
   const renderImg = (id)=>{
     switch(id){
       case 1:
@@ -22,6 +26,12 @@ const Works = ({project}) => {
         break;  
       case 3:
         return <img src={todo} alt="image of the project" />
+        break;   
+      case 4:
+        return <img src={rick} alt="image of the project" />
+        break;   
+      case 5:
+        return <img src={pconf} alt="image of the project" />
         break;   
     }
   }
