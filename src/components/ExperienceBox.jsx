@@ -4,10 +4,9 @@ import "../styles/ExperienceBox.scss"
 const ExperienceBox = () => {
   return (
     <div className='ExperienceBox'>
-        <h2>Making a desing system from scratch</h2>
-        <span>12 Feb 2020  |  Design, Pattern</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, accusamus. 
-            Voluptatum non quam dolorem.  cta architecto odio minus amet fugit?</p>
+        <h2>Junior Front-End Developer at Wenufy</h2>
+        <span>2020</span>
+        <p>I worked as a member of a team that developed a Mobile App called "Wenufy" that connects you to multiple local businesses to access their products or services.</p>
     </div>
   )
 }

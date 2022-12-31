@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 //styles
 //import workpic from "../assets/Works/Rectangle 30.svg"
-import Calc from "../assets/Works/ReactCalc.png"
+import Calc from "../assets/Works/calculator.png"
 import ecomerce from "../assets/Works/E-Comerce App.png"
 import todo from "../assets/Works/todoApp.png"
 import "../styles/Works.scss"
@@ -41,7 +41,7 @@ const Works = ({project}) => {
             <label>React.Js</label>
             
          
-            <label className='Site-link'><a href={project.github}><i class="fa-brands fa-github"></i> GitHub Page</a></label>
+            <label className='Site-link'><a href={project.github}><i class="fa-brands fa-github"></i> GitHub</a></label>
             <label className='Site-link'><a href={project.url}>Visit my site!</a></label>
             
         </div>
