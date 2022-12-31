@@ -1,8 +1,7 @@
-// .Contact{
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// }
+ .Contact h1{
+     font-size: 2rem;
+     margin: 0 0 1.5rem 1.5rem;
+ }
 
 
 
@@ -17,18 +16,19 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-    margin: 20px auto;
+    margin: 20px 0;
     text-align: center;
     
 }
 
 
 .Contact-Info-Profile img{
-    border-radius: 75px;
-    width: 150px;
+    
+    width: 100%;
+    margin-bottom: 25px;
 }
 
-.Contact-Info-Profile h1{
+.Contact-Info-Profile h2{
     font-size: 2.6rem;
 }
 .Contact-Info-Profile p{
@@ -36,20 +36,26 @@
 }
 
 .Contact-Wrapper{
-    justify-content: center;
+    //justify-content: center;
     display: flex;
     flex-direction: column;
-    margin: 25px 50px 0;
+    margin: 25px auto 0;
 }
 .Contact-Info-item {
     text-decoration: none;
     color: black;
+    font-size: 1.6rem;
+    margin: 1rem auto;
 }
-
+.Contact-Info-item i{
+    font-size: 2rem;
+    margin-right: .5rem;
+}
 .Contact-Info-item a{
     text-decoration: none;
     color: black;
 }
+
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import ConPic from "../assets/Contact/mypic.png"
+import ConPic from "../assets/Contact/contactPic.jpg"
 //styles
 import "../styles/Contact.scss"
 
@@ -14,7 +14,7 @@ const Contact = () => {
         <div className='Contact-Info-Profile'>
           <img src={ConPic} alt="Profile Picture" />
 
-          <h1>Carlos Pretelin</h1>
+          <h2>Carlos Pretelin </h2>
           <p>Junior Front-End Web Developer | HTML/CSS, JAVASCRIPT/REACT.JS | Seeking entry level opportunity</p>
         </div>
         
@@ -22,7 +22,7 @@ const Contact = () => {
         <div className='Contact-Wrapper'>
 
           <div className='Contact-Info-item'>
-            <a href="">
+            <a href="#">
               <i className="fa-brands fa-google"></i>
               <span>E-Mail: carlosppretelin@gmail.com</span>
             </a>
@@ -30,16 +30,19 @@ const Contact = () => {
           </div>
 
           <div className='Contact-Info-item'>
-          <i class="fa-brands fa-linkedin"></i>
-            <span>Linkedin/Carlos-Pretelin</span>
+            <a href="https://www.linkedin.com/in/carlos-pretelin/">
+              <i className="fa-brands fa-linkedin"></i>
+              <span>Linkedin/Carlos-Pretelin</span>
+            </a>
+          
           </div>
 
           <div className='Contact-Info-item'>
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
             <span>GitHub/Carlos-Pretelin</span>
           </div>
 
-
+          
 
         </div>
         
