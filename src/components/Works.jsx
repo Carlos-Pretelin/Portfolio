@@ -8,11 +8,10 @@ import todo from "../assets/Works/todoApp.png"
 import rick from "../assets/Works/RickMorty.png"
 import pconf from "../assets/Works/platziconf.png"
 import "../styles/Works.scss"
-import useGetProjectList from '../hooks/useGetProjectList';
 
 const Works = ({project}) => {
 
-  const {projectList, projectDetails, handleDetails} = useGetProjectList();
+
 
 
   //To do : Move this to a custom hook
@@ -51,17 +50,21 @@ const Works = ({project}) => {
             <label>React.Js</label>
             
          
-            <label className='Site-link'><a href={project.github}><i className="fa-brands fa-github"></i> GitHub</a></label>
-            <label className='Site-link'><a href={project.url}>Visit my site!</a></label>
+            
             
         </div>
         
         <p className='Works_description'>{project.description}</p>
 
+        <div className='Works-Sites'>
+          <a href={project.github}><i className="fa-brands fa-github"></i> GitHub</a>
+          <a href={project.url}>Visit my site!</a>
+        </div>
+
         {/* <Link onClick={ () => handleDetails(project) } to={"/Projects_Details"}>Show Details</Link> */}
         
 
-        <i className="fa-thin fa-horizontal-rule Works-line-icon" />
+        
         
     </div>
     
