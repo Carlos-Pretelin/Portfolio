@@ -51,7 +51,7 @@ const Works = ({project}) => {
             <label>React.Js</label>
             
          
-            <label className='Site-link'><a href={project.github}><i class="fa-brands fa-github"></i> GitHub</a></label>
+            <label className='Site-link'><a href={project.github}><i className="fa-brands fa-github"></i> GitHub</a></label>
             <label className='Site-link'><a href={project.url}>Visit my site!</a></label>
             
         </div>

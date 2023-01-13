@@ -11,7 +11,7 @@ const FeaturedWorks = () => {
   
   return (
     <section className='FeaturedWorks'>
-        <p className='FeaturedWorks_title'>Fetured Works</p>
+        <p className='FeaturedWorks_title'> <i className="fa-solid fa-star"></i> Featured Works</p>
         
         {state.map( (project) => (
           <Works project={project}  key={project.id}/>

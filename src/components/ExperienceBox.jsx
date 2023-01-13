@@ -1,12 +1,12 @@
 import React from 'react'
 import "../styles/ExperienceBox.scss"
 
-const ExperienceBox = () => {
+const ExperienceBox = ({job}) => {
   return (
     <div className='ExperienceBox '>
-        <h2>Junior Front-End Developer at Wenufy</h2>
-        <span>2020  |  Mexico, Veracruz</span>
-        <p>I worked as a member of a team that developed a Mobile App called "Wenufy" that connects you to multiple local businesses to access their products or services.</p>
+        <h2>{job.title}</h2>
+        <span>{job.date}</span>
+        <p>{job.description}</p>
     </div>
   )
 }
