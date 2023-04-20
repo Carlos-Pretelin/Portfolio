@@ -3,12 +3,13 @@ import ExperienceBox from './ExperienceBox'
 import useEmploymentState from '../hooks/useEmploymentState'
 //styles
 import "../styles/Education.scss"
+import useInitialState from '../hooks/useInitialState'
 
 
 const Education = () => {
 
-  const {employmentState} = useEmploymentState();
-  console.log(employmentState)
+  const {employmentState} = useInitialState();
+  //console.log(employmentState)
   
 
   return (
