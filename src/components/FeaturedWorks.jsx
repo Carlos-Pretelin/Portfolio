@@ -5,7 +5,7 @@ import useInitialState from '../hooks/useInitialState'
 
 
 const FeaturedWorks = () => {
-
+  //List of projects
   const {state} = useInitialState();
   //console.log(state[0])
   

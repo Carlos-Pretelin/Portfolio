@@ -1,6 +1,5 @@
 import React from 'react'
 import ExperienceBox from './ExperienceBox'
-import useEmploymentState from '../hooks/useEmploymentState'
 //styles
 import "../styles/Education.scss"
 import useInitialState from '../hooks/useInitialState'

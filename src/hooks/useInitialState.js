@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 
+//NOTE : I can put a featured property in each of the projects so that way i can display them or not in the said section of the app instead of
+// having multiple lists 
 
-
-
+//This is the Hardcoded List of the Featured Projects that could be replaced with an API call
 const initialState = [
     {
         name: "React Calculator",
@@ -35,7 +36,7 @@ const initialState = [
     }
 ]
 
-
+//List of Jobs
 const employmentInitalState = [
     {
         title: "Frontend Developer at Wenufy",
@@ -72,7 +73,7 @@ const useInitialState = () => {
 
 
 
-  return {state, hamMenu, employmentState, setEmploymentState, setHamMenu, handleMenu}
+  return {state, employmentState, hamMenu, setHamMenu, handleMenu}
 }
 
 export default useInitialState

@@ -2,6 +2,7 @@ import React, {useState} from "react"
 
 
 
+//This is the Hardcoded List of Projects that could be replaced with an API call
 
 const ProjectList = [
     

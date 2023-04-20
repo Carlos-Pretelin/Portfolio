@@ -15,6 +15,7 @@ const Works = ({project}) => {
 
 
   //To do : Move this to a custom hook
+  //ideally every element should have its own image url, but for now this will do
   const renderImg = (id)=>{
     switch(id){
       case 1:

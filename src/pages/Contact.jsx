@@ -1,5 +1,5 @@
 import React from 'react'
-import ConPic from "../assets/Contact/contactPic.jpg"
+//import ConPic from "../assets/Contact/contactPic.jpg"
 //styles
 import "../styles/Contact.scss"
 

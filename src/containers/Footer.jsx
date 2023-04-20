@@ -1,9 +1,9 @@
 import React from 'react'
 import "../styles/Footer.scss"
-import face from "../assets/Footer/fb.svg"
-import insta from "../assets/Footer/insta.svg"
-import twitt from "../assets/Footer/twit.svg"
-import linkd from "../assets/Footer/Linkedin.svg"
+//import face from "../assets/Footer/fb.svg"
+//import insta from "../assets/Footer/insta.svg"
+//import twitt from "../assets/Footer/twit.svg"
+//import linkd from "../assets/Footer/Linkedin.svg"
 
 const Footer = () => {
   return (

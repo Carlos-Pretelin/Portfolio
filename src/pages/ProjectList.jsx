@@ -8,7 +8,7 @@ import "../styles/ProjectList.scss"
 
 const Projects = () => {
 
-  const {projectList,} = useGetProjectList();
+  const {projectList} = useGetProjectList();
 
   return (
     <div className='Project-List'>
